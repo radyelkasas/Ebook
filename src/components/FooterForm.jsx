@@ -182,14 +182,6 @@ const Footer = () => {
                 </li>
                 <li className="py-[10px]">
                   <Link
-                    to="/borrowed"
-                    className="text-[16px] font-medium text-main"
-                  >
-                    Borrowed
-                  </Link>
-                </li>
-                <li className="py-[10px]">
-                  <Link
                     to="/about"
                     className="text-[16px] font-medium text-main"
                   >

@@ -102,6 +102,12 @@ const NavBar = () => {
                     Add Book
                   </NavLink>
                   <NavLink
+                    to="/dashbord"
+                    className="text-[18px] font-semibold opacity-[60%]"
+                  >
+                    DashBord
+                  </NavLink>
+                  <NavLink
                     to="/contactUs"
                     className="text-[18px] font-semibold opacity-[60%]"
                   >

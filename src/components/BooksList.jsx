@@ -73,12 +73,12 @@ const BooksList = () => {
                       <FaShoppingBasket />
                       <button className="text-[12px]">Add to Cart</button>
                     </div>
-                    <Link
-                      to="/borrowed"
+                    <button
+                      onClick={() => addBooksCart(book.id)}
                       className="cursor-pointer flex items-center justify-center w-[150px] h-[50px] rounded-lg gap-2 text-white bg-bgbtnHome text-[14px]"
                     >
                       Borrowed
-                    </Link>
+                    </button>
                   </div>
                 </>
               ) : (
